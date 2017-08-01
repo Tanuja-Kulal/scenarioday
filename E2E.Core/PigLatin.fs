@@ -9,7 +9,7 @@ module PigLatin =
             let c = Char.ToUpper(ch)
             c = 'A' || c = 'E' || c = 'I' || c = 'O' || c = 'U'
         let firstChar = str.[0]
-        //raise (OuterError("outer"))
+        //raise (OuterError("outer exception"))
         if isVowel firstChar then
             str + "way"
         else
